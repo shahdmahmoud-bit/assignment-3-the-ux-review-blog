@@ -1,0 +1,162 @@
+@media(max-width:1280px) {
+
+    /* *authors section */
+    .inner-auth {
+        width: 50%;
+    }
+
+    .auth-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* * footer section */
+    .left-ft {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1024px) {
+
+    /* *navbar section */
+    .md-screen {
+        display: none;
+    }
+
+    /* *hero section */
+    .hero-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-left .hero-p {
+        width: 100%;
+    }
+
+    .hero-btn1:hover {
+        transform: none;
+    }
+
+    .hero-btn2:hover {
+        transform: none;
+    }
+
+    .hero-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .hero-right img:hover {
+        transform: none;
+    }
+
+    .hero-right img {
+        transform: none;
+    }
+
+    /* *article section */
+    .article .container {
+        flex-direction: column;
+    }
+
+    .art-left,
+    .art-right {
+        width: 100%;
+    }
+
+    .art-left {
+        margin-bottom: 30px;
+    }
+
+    .art-right {
+        position: static;
+    }
+
+    .art-cards .card {
+        padding: 25px;
+    }
+
+    /* *authors section */
+    .inner-auth {
+        width: 100%;
+    }
+
+    .auth-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* * rebellion section */
+    .both-sides {
+        flex-direction: column;
+    }
+
+    .rebell-left {
+        width: 100%;
+    }
+
+    .rebell-right {
+        width: 100%;
+    }
+
+    /* * footer section */
+    .ftr-1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .colum-1 {
+        width: 100%;
+    }
+
+    .colum-3 {
+        width: 70%;
+    }
+}
+
+@media(max-width:768px) {
+
+    /* * footer section */
+    .ftr-1 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .colum-3 {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+
+    /* *hero section */
+    .hero-left h1 {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+
+    .hero-left .hero-btn1 {
+        width: 50%;
+    }
+
+    .hero-left .hero-btn2 {
+        width: 50%;
+    }
+
+    /* *article section */
+    .art-title .art-sp {
+        display: none;
+    }
+}
